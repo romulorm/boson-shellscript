@@ -1,0 +1,27 @@
+Aula 07) Permissão de execução para o script: chmod a+x nomedoarquivo.sh
+
+Aula 09)
+a) Redirecionamento de saída
+--------------------------------------
+Gravar a saída de um comando para um arquivo texto, sobrescrevendo
+o existente. Exemplo:
+ls > conteudo.txt
+
+Adicionar a saída de um comando para um arquivo texto, sem sobrescrever.
+ls >> conteudo.txt
+
+b) Redirecionamento de entrada
+--------------------------------------
+wc < conteudo.txt
+OBS: wc = Word Counter
+
+c) Redirecionamento de entrada inline
+--------------------------------------
+wc<<EOF
+>Linha de texto1
+>Linha de texto2
+EOF
+
+Aula 10)
+O bash não faz cálculos com números de ponto flutuante. Para isso
+devemos utilizar o aplicativo Basic Calculator - bc.
