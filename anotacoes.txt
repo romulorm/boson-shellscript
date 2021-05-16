@@ -30,3 +30,8 @@ comando: bc
 Para sair: quit
 
 Ponto flutuante: configurar a variável scale=2 (duas casas decimais)
+
+Aula 12)
+$? = status de saída
+echo $? - mostra o status de saída do último comando.
+exit 6 - finaliza o script forçando status de saída 6
