@@ -1,7 +1,6 @@
 #!/bin/bash
-diretorio = /home/romulo/*
 
-for item in $diretorio
+for item in /home/romulo/*
 do
   if [ -d "$item" ]
   then
